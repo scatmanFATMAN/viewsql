@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5d3623f3-b69c-4861-bf66-f0bbac35e0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{ffbba203-1c52-44bb-95a0-24e9236c44c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="widgets">
+      <UniqueIdentifier>{c4dddc84-0ede-4da9-a7a3-df788032ec62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\window_main.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\panel_connections.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\textarea_log.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\textarea.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\stdio.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\log.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\tree_connections.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="connection_folder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\tabs_connection.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="widgets\panel_connection_general.cpp">
+      <Filter>widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\string.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\os.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="connection_database.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="widgets\window_main.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\panel_connections.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\widget.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\textarea_log.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\textarea.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\stdio.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\log.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\tree_connections.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_folder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\tabs_connection.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="widgets\panel_connection_general.h">
+      <Filter>widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\string.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\os.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_database.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
